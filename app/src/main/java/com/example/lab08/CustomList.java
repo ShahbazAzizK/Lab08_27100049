@@ -10,6 +10,10 @@ public class CustomList {
         this.cities = new ArrayList<>();
     }
 
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
+
     public void addCity(City city) {
         cities.add(city);
     }
